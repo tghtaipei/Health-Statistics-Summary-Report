@@ -1,0 +1,14 @@
+# 衛生統計報表 PDF 轉換工具 - 相依套件清單
+# 安裝指令：pip install -r requirements.txt
+
+# Windows COM 介面（控制 Excel）
+pywin32>=305
+
+# PDF 處理
+pypdf>=3.17.0
+
+# PDF 生成與報表
+reportlab>=4.0.7
+
+# 打包工具
+pyinstaller>=6.3.0
